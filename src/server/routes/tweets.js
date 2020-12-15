@@ -1,16 +1,12 @@
 const Twitter = require('twitter');
 const https = require('https');
-/*   Bearer token can also be used instead of Access
-    consumer_key: '6kWM6lKeLZQqkENMac2yZ0kqR',
-    consumer_secret: 'pSwQDQIbhxkiDxoMR5o83qOQwlWvhwBfZEt8Ev15V54JDKq1ZT',
-    bearer_token: 'AAAAAAAAAAAAAAAAAAAAANYcKgEAAAAALJQsHjkLw9qoPos1oiR0%2FwQiqaI%3DJJWcJpKSalgKyT9r2LoVEJKmnycxJ9IWCJoG1XiybazYaKBxqc'
-    */
+
 module.exports = (app, io) => {
     let twitter = new Twitter({
-        consumer_key: 'qlonMVjLcjP2KwN0cV401neu8',
-        consumer_secret: 'YGgRUk89w1xYEH8qME9Xnes0iZY84mgOOB7L0R6yfcIl07VBOA',
-        access_token_key: '1337076916847661062-29jLWs4ZhsBFJWyuWEtRZpfzDeu5P6',
-        access_token_secret: '3h2MQ1Y28IuXdLq4X4CgeQERLilDzDmDPVhCUWBtS7z4s'
+        consumer_key: 'qlonMVffsfsdfjLcjP2KwN0cV401neu8',
+        consumer_secret: 'YGgRUksdfsdfsdfsf89w1xYEH8qME9Xsdfnes0iZY84mgOOB7L0R6yfcIl07VsfdsdfBOA',
+        access_token_key: '1337076sdfsdf916847661062-29fsdfsdfsdfjLsdfsdfWs4ZhsBFJWyuWEtRZpfzDeu5sdfsfP6',
+        access_token_secret: '3h2MQ1Ysdfsdfsfssf28IuXdLq4X4CgeQERLilDzDmDPVsdfsdCUWBftS7dfsdfsz4s'
     });
 
     let socketConnection;
