@@ -5,10 +5,10 @@ Simple App to display Tweets   based on search pattern
 
 How to start :
 
----  yarn install               // Some of the dependencies NPm can't resolve with different versions
+---  yarn install               // Some of the dependencies npm can't resolve with different versions
 --- yarn start  / npm start     // http://localhost:3001 - Server and  http://localhost:3000 - client
 
---- npm run server   - Starts node server http://localhost:3001
+--- npm run server   - Starts node server http://localhost:3001.         Since it's socket recommended to start server seperately.
 
 --- npm run client - starts only client http://localhost:3000
 
