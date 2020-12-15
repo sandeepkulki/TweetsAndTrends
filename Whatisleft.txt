@@ -1,0 +1,20 @@
+
+MISSING ITEMS : 
+
+1) Not calling Trends API calling Search based tweets and taking text from it for world cloud ... This is just a service creation in Node and hooking that to TrendsComponent in React instead of tweets
+2) Code Cleanup
+3) On Node not handled error scenarios
+4) Code Cleanup
+5)  Documentation along with Architecture Diagram
+6) Need to move secrets (keys to connect to twitter) need to be moved in .env file
+7) using a logger instead of console.logs
+
+Completed : 
+
+Streaming Tweets 
+Search key word to find tweets
+Pause and Resume Streaming
+Demonstration of class and functional component for modern programming
+Modularization with routing
+Redirecting to not found page if wrong URL is hit on client
+Word cloud demostration with same Tweets API.

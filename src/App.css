@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navbar{
+  background-color: grey !important;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 100ms ease-in;
+}
+
+h2.error{
+  margin:20px;
+  color: red;
+}
+
+.btn-primary{
+  margin-bottom:20px;
+}
+
+.margin10{
+  margin:10px;
+  display:block;
+}
+
+.displayP{
+  display:block;
+  margin-top: 100px;
+}
