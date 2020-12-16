@@ -59,6 +59,8 @@ function TrendsComponent() {
                         socket.removeAllListeners("tweets");
                         console.log("Socket Disconnected");
                 });
+                
+                //return () => socket.disconnect();    Can be used effect return to clean up the effect  
         });
 
         return (
